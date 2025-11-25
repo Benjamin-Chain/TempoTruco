@@ -1,0 +1,50 @@
+/* Base message styles */
+.message {
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.6;
+  border-left-width: 4px;
+  border-left-style: solid;
+}
+
+.message p {
+  margin: 0;
+  color: #424242;
+}
+
+.message strong {
+  font-weight: 600;
+}
+
+/* Red variant - for critical/important information */
+.red {
+  background-color: #f5f5f5;
+  border-left-color: #ff6b6b;
+}
+
+.red p {
+  color: #424242;
+}
+
+/* Blue variant - for general information */
+.blue {
+  background-color: #e3f2fd;
+  border-left-color: #2196f3;
+}
+
+.blue p {
+  color: #1565c0;
+}
+
+/* Orange variant - for warnings/alerts */
+.orange {
+  background-color: #fff3e0;
+  border-left-color: #ff9800;
+}
+
+.orange p {
+  color: #e65100;
+}
+

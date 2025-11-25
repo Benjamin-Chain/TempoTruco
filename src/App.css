@@ -1,0 +1,25 @@
+/* App Layout Styles */
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-content {
+  flex: 1;
+  margin-left: 220px;
+  width: calc(100% - 220px);
+  transition: margin-left 0.3s ease;
+  padding: 2rem;
+  background-color: #f7fafc;
+}
+
+/* Mobile Responsive Layout */
+@media (max-width: 768px) {
+  .app-content {
+    margin-left: 0;
+    width: 100%;
+    padding: 1rem;
+    padding-top: 80px;
+  }
+}
+
